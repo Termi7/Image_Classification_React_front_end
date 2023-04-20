@@ -1,7 +1,7 @@
 import React, { useState, ChangeEvent, FormEvent } from "react";
 import axios from "axios";
 const api = axios.create({
-  baseURL: "http://localhost:8000", // replace with your FastAPI endpoint URL
+  baseURL: "http://localhost:8000",
 });
 
 function App(): JSX.Element {
@@ -49,7 +49,7 @@ function App(): JSX.Element {
       });
       console.log(response.data);
       console.log(22);
-      setResponseText(response.data); // set the response data in state
+      setResponseText(response.data);
     } catch (error) {
       console.error(error);
     }
