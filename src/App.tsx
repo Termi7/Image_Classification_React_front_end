@@ -57,6 +57,24 @@ function App(): JSX.Element {
 
   return (
     <div>
+      <h1
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          height: "10vh",
+          fontSize: "4rem",
+          fontWeight: "bold",
+          textShadow: "2px 2px 4px #000000",
+          color: "#ffffff",
+          background: "linear-gradient(180deg, #a26d40 0%, #f9c59e 100%)",
+          borderRadius: "10px",
+          boxShadow: "2px 2px 4px #000000",
+        }}
+      >
+        Bear Type Identification and Bear Fact
+      </h1>
+
       <form onSubmit={handleSubmit} encType="multipart/form-data">
         <input type="file" onChange={handleFileChange} />
         <button type="submit">Upload</button>
