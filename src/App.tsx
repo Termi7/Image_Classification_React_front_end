@@ -72,7 +72,7 @@ function App(): JSX.Element {
           boxShadow: "2px 2px 4px #000000",
         }}
       >
-        Bear Type Identification and Bear Fact
+        Bear Type Identification and Facts
       </h1>
 
       <form onSubmit={handleSubmit} encType="multipart/form-data">
